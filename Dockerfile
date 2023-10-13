@@ -1,4 +1,4 @@
-FROM node:20.2.0-buster
+FROM node:20-buster
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .

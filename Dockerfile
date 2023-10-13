@@ -1,4 +1,4 @@
-FROM node:current-buster
+FROM node:buster
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
